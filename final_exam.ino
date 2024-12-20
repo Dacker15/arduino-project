@@ -1,8 +1,9 @@
 /*
   The Humidity Fan
 
-  At every loop, it use DHT11 sensor to detect temperature and humidity of the enviroment and display that on an LCD screen.
-  If humidity percentage is greater or equal to 65, a DC motor starts to move the attached fan.
+  At every loop, it use DHT11 sensor to detect temperature and humidity of the
+  enviroment and display that on an LCD screen. If humidity percentage is
+  greater or equal to 65, a DC motor starts to move the attached fan.
 
   This project was made with:
   - Arduino UNO
@@ -27,9 +28,9 @@
   - Digital Pin 11: LCD Screen D6
   - Digital Pin 12: LCD Screen D7
 
-  To make all components work, I used some external libraries:
-  - LiquidCrystal by Arduino, Adafruit
-  - DHT11 by Dhruba Saha
+  To make the sketch works, I used some external libraries:
+  - LiquidCrystal by Arduino, Adafruit (https://docs.arduino.cc/libraries/liquidcrystal/)
+  - DHT11 by Dhruba Saha (https://github.com/dhrubasaha08/DHT11)
   downloadable directly from Arduino IDE Library Manager
 
   modified 10 Dec 2024
